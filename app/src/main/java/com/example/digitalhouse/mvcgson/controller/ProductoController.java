@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.example.digitalhouse.mvcgson.model.dao.DAOProducto;
 import com.example.digitalhouse.mvcgson.model.dao.DAORetrofitProducto;
+import com.example.digitalhouse.mvcgson.model.dao.DAORoom;
 import com.example.digitalhouse.mvcgson.model.pojo.Producto;
 import com.example.digitalhouse.mvcgson.util.HTTPConnectionManager;
 import com.example.digitalhouse.mvcgson.util.ResultListener;
@@ -18,20 +19,24 @@ import retrofit2.http.HTTP;
 
 public class ProductoController {
 
-    public void getProductos(final ResultListener<List<Producto>> escuchadorDeLaVista, Context context) {
+    public void getProductos(final ResultListener<List<Producto>> escuchadorDeLaVista, final Context context) {
 
         if(HTTPConnectionManager.isNetworkingOnline(context)) {
-            DAORetrofitProducto daoRetrofitProducto = new DAORetrofitProducto();
-            daoRetrofitProducto.getAllProducts(new ResultListener<List<Producto>>() {
+            final DAORetrofitProducto daoRetrofitProducto = new DAORetrofitProducto();
+            ResultListener<List<Producto>> escuchadorDelDao =new ResultListener<List<Producto>>() {
                 @Override
                 public void finish(List<Producto> resultado) {
+                    DAORoom daoRoom = new DAORoom(context);
+                    daoRoom.insertProductos(resultado);
                     escuchadorDeLaVista.finish(resultado);
                 }
-            });
+            };
+            daoRetrofitProducto.getAllProducts(escuchadorDelDao);
+
         } else {
-            DAOProducto daoProducto = new DAOProducto();
-            List<Producto> lista = daoProducto.getListaDeProductosFromArchivo();
-            escuchadorDeLaVista.finish(lista);
+            DAORoom daoRoom = new DAORoom(context);
+            List<Producto> productoList = daoRoom.getAllProductos();
+            escuchadorDeLaVista.finish(productoList);
 
         }
     }

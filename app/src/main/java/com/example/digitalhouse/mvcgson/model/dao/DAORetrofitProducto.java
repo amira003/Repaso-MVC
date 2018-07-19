@@ -23,7 +23,7 @@ public class DAORetrofitProducto {
     private RetrofitServiceProducto retrofitServiceProducto;
 
     public DAORetrofitProducto() {
-        this.urlBase = "@strings/urlBase";
+        this.urlBase = "https://api.myjson.com";
         retrofit = new Retrofit.Builder()
                     .baseUrl(urlBase)
                     .addConverterFactory(GsonConverterFactory.create())

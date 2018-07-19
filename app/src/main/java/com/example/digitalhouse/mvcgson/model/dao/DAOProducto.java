@@ -18,6 +18,9 @@ import java.util.List;
  * Created by digitalhouse on 01/06/17.
  */
 
+/**
+ * fixme CLASE A DEPRECAR
+ */
 public class DAOProducto {
 
     public List<Producto> getListaDeProductosFromArchivo(){
