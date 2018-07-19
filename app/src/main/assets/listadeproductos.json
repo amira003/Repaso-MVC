@@ -1,0 +1,94 @@
+{
+  "productos": [
+    {
+      "nombre": "Caja de alfajores",
+      "precio": "156.0",
+      "description": "Caja de 12 alfajores Havanna, son de chocolate y dulce de leche. Vencen en 2020."
+    },
+    {
+      "nombre": "Lote de cartas de Pokemon",
+      "precio": "98.0",
+      "description": "Son 300 cartas entre ellas hay 4 especiales correspondientes a pokemones ultraevolucionados. Usadas."
+    },
+    {
+      "nombre": "Aspiradora Robot",
+      "precio": "2080.0",
+      "description": "Aspiradora automática. Limpia tu casa sin hacer nada, solo apretando un botón, dejá que el robot se encargue del trabajo sucio."
+    },
+    {
+      "nombre": "Caja de alfajores",
+      "precio": "156.0",
+      "description": "Caja de 12 alfajores Havanna, son de chocolate y dulce de leche. Vencen en 2020."
+    },
+    {
+      "nombre": "Lote de cartas de Pokemon",
+      "precio": "98.0",
+      "description": "Son 300 cartas entre ellas hay 4 especiales correspondientes a pokemones ultraevolucionados. Usadas."
+    },
+    {
+      "nombre": "Aspiradora Robot",
+      "precio": "2080.0",
+      "description": "Aspiradora automática. Limpia tu casa sin hacer nada, solo apretando un botón, dejá que el robot se encargue del trabajo sucio."
+    },
+    {
+      "nombre": "Caja de alfajores",
+      "precio": "156.0",
+      "description": "Caja de 12 alfajores Havanna, son de chocolate y dulce de leche. Vencen en 2020."
+    },
+    {
+      "nombre": "Lote de cartas de Pokemon",
+      "precio": "98.0",
+      "description": "Son 300 cartas entre ellas hay 4 especiales correspondientes a pokemones ultraevolucionados. Usadas."
+    },
+    {
+      "nombre": "Aspiradora Robot",
+      "precio": "2080.0",
+      "description": "Aspiradora automática. Limpia tu casa sin hacer nada, solo apretando un botón, dejá que el robot se encargue del trabajo sucio."
+    },
+    {
+      "nombre": "Caja de alfajores",
+      "precio": "156.0",
+      "description": "Caja de 12 alfajores Havanna, son de chocolate y dulce de leche. Vencen en 2020."
+    },
+    {
+      "nombre": "Lote de cartas de Pokemon",
+      "precio": "98.0",
+      "description": "Son 300 cartas entre ellas hay 4 especiales correspondientes a pokemones ultraevolucionados. Usadas."
+    },
+    {
+      "nombre": "Aspiradora Robot",
+      "precio": "2080.0",
+      "description": "Aspiradora automática. Limpia tu casa sin hacer nada, solo apretando un botón, dejá que el robot se encargue del trabajo sucio."
+    },
+    {
+      "nombre": "Caja de alfajores",
+      "precio": "156.0",
+      "description": "Caja de 12 alfajores Havanna, son de chocolate y dulce de leche. Vencen en 2020."
+    },
+    {
+      "nombre": "Lote de cartas de Pokemon",
+      "precio": "98.0",
+      "description": "Son 300 cartas entre ellas hay 4 especiales correspondientes a pokemones ultraevolucionados. Usadas."
+    },
+    {
+      "nombre": "Aspiradora Robot",
+      "precio": "2080.0",
+      "description": "Aspiradora automática. Limpia tu casa sin hacer nada, solo apretando un botón, dejá que el robot se encargue del trabajo sucio."
+    },
+    {
+      "nombre": "Caja de alfajores",
+      "precio": "156.0",
+      "description": "Caja de 12 alfajores Havanna, son de chocolate y dulce de leche. Vencen en 2020."
+    },
+    {
+      "nombre": "Lote de cartas de Pokemon",
+      "precio": "98.0",
+      "description": "Son 300 cartas entre ellas hay 4 especiales correspondientes a pokemones ultraevolucionados. Usadas."
+    },
+    {
+      "nombre": "Aspiradora Robot",
+      "precio": "2080.0",
+      "description": "Aspiradora automática. Limpia tu casa sin hacer nada, solo apretando un botón, dejá que el robot se encargue del trabajo sucio."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mvcgson</string>
+    <string name="baseUrl">https://api.myjson.com</string>
+</resources>
